@@ -31,5 +31,6 @@ module.exports = function(grunt){
     grunt.loadNpmTasks('grunt-express');
     grunt.loadNpmTasks('grunt-contrib-copy');
 
-    grunt.registerTask('default',['express', 'express-keepalive'])
+    grunt.registerTask('default',['express', 'express-keepalive']);
+    grunt.registerTask('heroku',['express', 'express-keepalive'])
 };

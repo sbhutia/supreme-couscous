@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "my website",
   "main": "main.js",
-  "scripts": {
-    "postinstall": "grunt"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://sbhutia@github.com/sbhutia/supreme-couscous.git"
