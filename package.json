@@ -4,7 +4,7 @@
   "description": "my website",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postinstall": "bower install && grunt"
   },
   "repository": {
     "type": "git",
@@ -17,12 +17,10 @@
   },
   "homepage": "https://github.com/sbhutia/supreme-couscous#readme",
   "devDependencies": {
+    "bower": "^1.7.9",
     "grunt": "^1.0.1",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-jshint": "^1.0.0",
     "grunt-express": "^1.4.1"
-  },
-    "scripts": {
-  "postinstall": "bower install && grunt"
-    }
+  }
 }
