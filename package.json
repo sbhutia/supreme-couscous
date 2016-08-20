@@ -4,7 +4,7 @@
   "description": "my website",
   "main": "main.js",
   "scripts": {
-    "postinstall": "bower install && grunt"
+    "postinstall": "grunt"
   },
   "repository": {
     "type": "git",
