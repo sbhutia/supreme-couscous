@@ -22,7 +22,6 @@ module.exports = function(grunt){
       express: {
         server: {
           options: {
-            port: 9000,
             bases: path.resolve(__dirname, 'web')
           }
         }
