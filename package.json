@@ -1,0 +1,24 @@
+{
+  "name": "supreme-couscous",
+  "version": "1.0.0",
+  "description": "my website",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://sbhutia@github.com/sbhutia/supreme-couscous.git"
+  },
+  "author": "sbhutia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sbhutia/supreme-couscous/issues"
+  },
+  "homepage": "https://github.com/sbhutia/supreme-couscous#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-express": "^1.4.1"
+  }
+}
