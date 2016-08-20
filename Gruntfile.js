@@ -22,6 +22,7 @@ module.exports = function(grunt){
       express: {
         server: {
           options: {
+            port: process.env.PORT || 9000,
             bases: path.resolve(__dirname, 'web')
           }
         }
