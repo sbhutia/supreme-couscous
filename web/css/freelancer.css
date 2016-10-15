@@ -54,7 +54,7 @@ hr.star-light {
   border-color: white;
 }
 hr.star-light:after {
-  background-color: #18BC9C;
+  background-color: #062F4F;
   color: white;
 }
 hr.star-primary {
@@ -69,7 +69,7 @@ hr.star-primary:after {
 }
 header {
   text-align: center;
-  background: #18BC9C;
+  background: #062F4F;
   color: white;
 }
 header .container {
@@ -104,11 +104,12 @@ header .intro-text .skills {
   }
 }
 .navbar-custom {
-  background: #2C3E50;
+  background: black;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   border: none;
+  opacity: .7;
 }
 .navbar-custom a:focus {
   outline: none;
@@ -127,24 +128,31 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-nav li a {
   color: white;
+  border-bottom: solid black 2px;
+  border-top: solid black 2px;
 }
 .navbar-custom .navbar-nav li a:hover {
-  color: #18BC9C;
+  border-bottom: solid #B82601 2px;
+  color: white;
   outline: none;
+  background-color: black;
 }
 .navbar-custom .navbar-nav li a:focus,
 .navbar-custom .navbar-nav li a:active {
   color: white;
+  background-color: black;
 }
 .navbar-custom .navbar-nav li.active a {
   color: white;
-  background: #18BC9C;
+  border-top: solid white 2px;
+  background-color: black;
 }
 .navbar-custom .navbar-nav li.active a:hover,
 .navbar-custom .navbar-nav li.active a:focus,
 .navbar-custom .navbar-nav li.active a:active {
   color: white;
-  background: #18BC9C;
+  border-top: solid white 2px;
+  background-color: black;
 }
 .navbar-custom .navbar-toggle {
   color: white;
@@ -196,6 +204,9 @@ section.success {
   section.first {
     padding-top: 75px;
   }
+}
+#portfolio{
+  --background-image: url("../img/thames.jpg")
 }
 #portfolio .portfolio-item {
   margin: 0 0 15px;
@@ -302,14 +313,14 @@ footer h3 {
 }
 footer .footer-above {
   padding-top: 50px;
-  background-color: #2C3E50;
+  background-color: #B82601;
 }
 footer .footer-col {
   margin-bottom: 50px;
 }
 footer .footer-below {
-  padding: 25px 0;
-  background-color: #233140;
+  padding: 15px 0;
+  background-color: #B82601;
 }
 .btn-outline {
   color: white;
